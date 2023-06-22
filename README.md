@@ -37,6 +37,7 @@ export default {
 }
 
 ```
+The part for getting the 2nd part of the path could maybe use some explanation. The `(.*)` part of the regular expression returns that part of the matched string in the first array element for the 1st occurence and in succeeding array elements for multiple occurences. For instance to get /user/rich/hildred you would use the pattern `(.*)\/(.*)`.
 
 If you made it here you might be interested in the __tests__
 
