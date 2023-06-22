@@ -1,0 +1,15 @@
+{
+  "type":"module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "rm -rf test2 && vitest run __tests__"
+  },
+  "devDependencies": {
+    "@rhildred/cors-proxy2": "^1.0.9",
+    "cloudflare2express": "^1.0.5",
+    "express": "^4.18.2",
+    "isomorphic-git": "^1.24.2",
+    "supertest": "^6.3.3",
+    "vitest": "^0.32.2"
+  }
+}
